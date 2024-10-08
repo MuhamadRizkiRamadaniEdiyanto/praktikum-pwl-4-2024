@@ -1,1 +1,2 @@
 nama:ariz
+jurusan:teknik mesin
