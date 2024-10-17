@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Latihan Tailwind CSS</title>
+   <link rel="stylesheet" href="./output.css">
+
+</head>
+<body >
+   <div class="flex justify-start mt-9 mb-3">
+   <section>
+      <h1 class="text-3xl ml-3 font-mono">Tugas-tugas kuliah</h1>
+   </section>
+   </div>
+   <div>
+   <section class="flex justify-start items-start " id="input" >
+      <input type="text" name="assignment" id="assignment" 
+             class="border border-gray-300 w-80 rounded-lg p-2  mr-6"
+             placeholder=" Inputkan yang akan dikerjakan ...">
+      <input type="button" id="btn-tambah" value="TAMBAH"
+             class="bg-slate-200 text-black font-mono  px-4 py-2 rounded-lg cursor-pointer hover:bg-yellow-300">
+   </section>
+   <section id="output" class=""></section>
+   <script src="main.js"></script>
+</body>
+</html>
